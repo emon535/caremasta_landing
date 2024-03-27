@@ -2,11 +2,11 @@
 title: "Contact Us"
 layout: "contact"
 draft: false
-info: 
+info:
   title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
-  contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+  description: Welcome to Caremasta! We're dedicated to providing exceptional service and support. Whether you have questions, feedback, or need assistance, our team is here for you. Don't hesitate to reach out - we look forward to hearing from you and assisting with anything you need.
+  contacts:
+    - "phone: +447904497765"
+    - "Mail: [info@caremasta.com](mailto:info@caremasta.com)"
+    - "Address: Square Root Business Centre, 102-116 Windmill Rd, Croydon CR0 2XQ"
 ---

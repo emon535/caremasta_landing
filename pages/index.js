@@ -76,6 +76,9 @@ const Home = ({ frontmatter }) => {
       </section>
 
       {/* services */}
+      <div className="flex justify-center my-4" id="features">
+        <h1>Features</h1>
+      </div>
       {services.map((service, index) => {
         const isOdd = index % 2 > 0;
         return (
@@ -83,6 +86,7 @@ const Home = ({ frontmatter }) => {
             key={`service-${index}`}
             className={`section ${isOdd && "bg-theme-light"}`}
           >
+
             <div className="container">
               <div className="items-center gap-8 md:grid md:grid-cols-2">
                 {/* Carousel */}
@@ -109,9 +113,8 @@ const Home = ({ frontmatter }) => {
 
                 {/* Content */}
                 <div
-                  className={`service-content mt-5 md:mt-0 ${
-                    !isOdd && "md:order-1"
-                  }`}
+                  className={`service-content mt-5 md:mt-0 ${!isOdd && "md:order-1"
+                    }`}
                 >
                   <h2 className="font-bold leading-[40px]">{service?.title}</h2>
                   <p className="mt-4 mb-2">{service?.content}</p>
@@ -147,12 +150,15 @@ const Home = ({ frontmatter }) => {
           )}
           {markdownify(workflow.description, "p", "mt-3")}
         </div>
-        <Image
-          src={workflow.image}
-          alt="workflow image"
-          width={1920}
-          height={296}
-        />
+        <div className="flex justify-center">
+
+          <Image
+            src={workflow.image}
+            alt="workflow image"
+            width={1120}
+            height={296}
+          />
+        </div>
       </section>
 
       {/* Cta */}

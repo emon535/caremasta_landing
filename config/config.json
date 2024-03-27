@@ -3,8 +3,8 @@
     "title": "CareMasta",
     "base_url": "/",
     "favicon": "/images/favicon.svg",
-    "logo": "/images/logo.svg",
-    "logo_width": "200",
+    "logo": "/images/logo_icon.svg",
+    "logo_width": "48",
     "logo_height": "48",
     "logo_text": "CareMasta"
   },
@@ -17,7 +17,7 @@
 
   "nav_button": {
     "enable": true,
-    "label": "Get Started",
+    "label": "View Demo",
     "link": "/contact"
   },
 

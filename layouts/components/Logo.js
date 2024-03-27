@@ -17,13 +17,19 @@ const Logo = ({ src }) => {
       }}
     >
       {src || logo ? (
-        <Image
-          width={logo_width.replace("px", "") * 2}
-          height={logo_height.replace("px", "") * 2}
-          src={src ? src : logo}
-          alt={title}
-          priority
-        />
+        <div className="flex items-start gap-2">
+          <Image
+            width={logo_width.replace("px", "") * 2}
+            height={logo_height.replace("px", "") * 2}
+            src={src ? src : logo}
+            alt={title}
+            priority
+          />
+          <h4>
+
+            {logo_text}
+          </h4>
+        </div>
       ) : logo_text ? (
         logo_text
       ) : (
