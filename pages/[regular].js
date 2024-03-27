@@ -12,6 +12,7 @@ const RegularPages = ({ data }) => {
     data.frontmatter;
   const { content } = data;
 
+
   return (
     <Base
       title={title}

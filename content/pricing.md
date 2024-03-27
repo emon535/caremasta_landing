@@ -1,54 +1,54 @@
 ---
-title: Pricing
+title: Care Plan Pricing
 layout: pricing
 draft: false
 plans:
-- title: Basic Plan
-  subtitle: Best For Small Individuals
-  price: 49
-  type: month
-  features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-  button:
-    label: Get started for free
-    link: "/contact"
+  - title: Basic Care
+    subtitle: Essential Support
+    price: 29
+    type: month
+    features:
+      - 24/7 Phone Support
+      - Basic Medication Reminders
+      - Monthly Check-in Calls
+    button:
+      label: Get Started
+      link: "/contact"
 
-- title: Professional Plan
-  subtitle: Best For Professionals
-  price: 69
-  type: month
-  recommended: true
-  features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-    - Cloud Service
-    - Best Dashboard
-  button:
-    label: Get started
-    link: "/contact"
+  - title: Standard Care
+    subtitle: Comprehensive Support
+    price: 49
+    type: month
+    recommended: true
+    features:
+      - 24/7 Phone Support
+      - Advanced Medication Reminders
+      - Weekly Check-in Calls
+      - Emergency Response Service
+    button:
+      label: Get Started
+      link: "/contact"
 
-- title: Business Plan
-  subtitle: Best For Large Individuals
-  price: 99
-  type: month
-  features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-  button:
-    label: Get started
-    link: "/contact"
+  - title: Premium Care
+    subtitle: Personalized Support
+    price: 69
+    type: month
+    features:
+      - 24/7 Phone Support
+      - Personalized Medication Reminders
+      - Daily Check-in Calls
+      - Emergency Response Service
+      - In-home Nurse Visits (Once a Month)
+    button:
+      label: Get Started
+      link: "/contact"
 
 call_to_action:
-  title: Need a larger plan?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
-  image: '/images/cta.svg'
+  title: Need a custom plan?
+  content: Our team can tailor a care plan to fit your specific needs. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  image: "/images/cta.svg"
   button:
     enable: true
     label: "Contact Us"
     link: "/contact"
-    
 ---
